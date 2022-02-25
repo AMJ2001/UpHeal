@@ -4,7 +4,7 @@
 	margin: 0;
 }
 .wrapper{
-	background: url(bg1.jpg) no-repeat;
+	background: url(image_files/bg1.jpg) no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
@@ -111,7 +111,7 @@ mptext{
 	margin: 0;
 }
 .wrapper1{
-	background: url(no.jpg) no-repeat;
+	background: url(image_files/no.jpg) no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
@@ -197,7 +197,7 @@ mptext{
 	background: #cc0000;
 }
 .wrapper2{
-	background: url(bg1.jpg) no-repeat;
+	background: url(image_files/bg1.jpg) no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
