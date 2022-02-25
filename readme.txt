@@ -1,5 +1,5 @@
-index.html is the main home page.
-app.js - javascript (api has also been used)
-xyz.php - contains connection scipt to mysql database
+UpHeal is a prototype website that is based on a service that provides latest information, news and a registration portal for latest treatments over various countries.
+Currently the website has a basic user registration page regarding Covid Vaccination.
 
-do extract the zip to run the website
+To run the webpages on a local device, extract files to the directory recognised by the server. (Default : htdocs , for Apache)
+index.html is the main home page, Registration page saves the data to mysql database.
