@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(bg1.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.4);
+}
+.navbar .logo{
+	width: 205px;
+	height: auto;
+	padding: 5px 10px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+mark {
+  font-family: inherit;
+  font-size: 30px;    
+  background-color: floralwhite;
+  color: black;
+}
+mptext{
+    width: 100%;
+}
+.mptext1{
+    padding-top: 10px;
+	position: relative;
+	width: 100%;
+    color: yellow;
+	background: rgba(255,155,255,0.4);
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper1{
+	background: url(no.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar1{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.4);
+}
+.navbar1 .logo1{
+	width: 205px;
+	height: auto;
+	padding: 5px 10px;
+}
+.navbar1 ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar1 ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar1 ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar1 ul li a.active,
+.navbar1 ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.wrapper1 .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+.wrapper2{
+	background: url(bg1.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.wrapper3{
+	background: url(https://images.unsplash.com/photo-1586991362097-2b4c41a7f25d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.wrapper4{
+     background: #ef6791;
+     background-image: linear-gradient(rgba(0,0,10,.75), rgba(0,0,12,.85)), url(https://www.bio.udel.edu/news/PublishingImages/News/Wear%20your%20mask%20-%20Wash%20your%20hands%20-%20Social%20distance/50288797981_2245031948_o.jpg?RenditionID=11);
+	background-size: cover;
+
+	height: 100vh;
+}
+.navbar2{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.4);
+}
+.navbar2 .logo{
+	width: 205px;
+	height: auto;
+	padding: 5px 10px;
+}
+.navbar2 ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar2 ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar2 ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar2 ul li a.active,
+.navbar2 ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.wrapper2 .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+.container2{ 
+    background: rgba(255,255,255,0.6);
+    border-spacing: 20px;
+    border: solid 5px darkorange ;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 5% 0 5%;
+    transform: translateY(35%);
+}
+.container3{ 
+    font-size: 20px;
+    font-family: cursive;
+    color: darkslategray;
+    background: rgba(255,255,255,0.6);
+    border: solid 5px white ;
+    border-spacing: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 5% 5% 0 0%;
+    transform: translateY(55%);
+}
+
+.form{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    padding-top: 80px;
+}
+
+.header2{
+    color: aliceblue;
+    border: solid 1px black;
+    background: rgba(0,0,0,0.5);
+}
+
+.field-instruction{
+    background: rgba(255,255,255,0.5s);
+}
+
+.title{
+    font-family: inherit;
+    color: white;
+    text-shadow: -1px 0 black, 0 2px red, 1px 0 black, 0 -1px black;
+}
+
+.subtitle{
+       font-family: inherit;
+    color: white;
+    text-shadow: -1px 0 blue, 0 1px black, 1px 0 pink, 0 -1px black; 
+}
+    
+
+.numbertitle{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.location-container{
+    padding: 20px;
+}
+.mark1 {
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    height: 8vh;
+    width: 1vw;
+    border: none 1px black;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: antiquewhite;
+    padding: 0 5% 0 5%;
+    transform: translateY(5%);
+}
+.dropdown{
+    text-align: left; 
+    padding-top: 85px;
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

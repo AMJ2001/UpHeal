@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Custom Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper4">
+			<nav class="navbar2">
+				<img class="logo" src="logo.png">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="number.html">Latest Numbers</a></li>
+					<li><a class="active" href="vac.html">Vaccine Registration</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="container2">      
+        <h1 class="header2">REGISTER HERE</h1>
+        <hr>
+                 <div id="dpdn" class="dropdown" style="display:block;">
+  <button class="dropbtn">Select Country</button>
+  <div class="dropdown-content" >
+    <a href="javascript:showdiv()">USA</a>
+    <a href="javascript:showdiv1()">INDIA</a>
+    <a href="javascript:showdiv()">UK</a>
+  </div>
+</div>  
+    <form action="xyz.php" method="post">           
+        <div id="form" class="form" style="display:none;">
+            <div id="delcountry" style="display:none;" class="form-field">
+                <br>
+                <div  class="field-instruction"><h3>Aadhar/Pan No:</h3></div>
+                <input name="apno" id="ap-no" type="text" class="field-entry" required>
+                <br>
+            </div>
+            <div class="form-field">
+                <br>
+                <div class="field-instruction"><h3> First-name:</h3></div>
+                <input name="username" id="f-name" type="text" class="field-entry" required>
+                <br>
+            </div>
+            <div class="form-field">
+                <div class="field-instruction"><h3>Last-name:</h3></div>
+                <input name="lastname" id="l-name" type="text" class="field-entry"  required>
+                <br>
+            </div>
+            <div class="form-field">
+                <div class="field-instruction"><h3>City:</h3></div>
+                <input name="city" id="city" type="text" class="field-entry"  required>
+                <br>
+            </div>
+            <div class="form-field">
+                <div class="field-instruction"><h3>Pin code</h3></div>
+                <input name="pincode" id="pin" type="text" class="field-entry" placeholder="6-digit" required>
+                <br>
+            </div>
+            <div class="form-field">
+                <div class="field-instruction"><h3>E-mail ID:</h3></div>
+                <input name="email" id="email" type="text" class="field-entry" placeholder="someone@xyz.com" required>
+                <br>
+            </div>
+            <div class="form-field">
+                <div class="field-instruction"><h3>Mobile No:</h3></div>
+                <input name="phno" id="mob-no" type="text" class="field-entry" value="+91 " required>
+                <br>
+            </div>
+            <div class="form-field">
+                <div class="field-instruction"><h3>Password:</h3></div>
+                <input name="pass" id="password" type="password" class="field-entry" placeholder="********" required>
+                <button id="show-password" type="button" class="show-password"><h2><i class="fas fa-eye" alt="show-password"></i></h2></button>
+                <br>
+            </div>
+            <input id="submit" type="submit" class="submit"><h2>SUBMIT DETAILS</h2>
+        </div>  
+                </form>
+
+        </div>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>
